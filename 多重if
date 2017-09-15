@@ -1,0 +1,15 @@
+public class 多重if {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int num=92;
+       if(num<60){
+    	   System.out.println("不及格");
+       }else if(num>60&&num<90){
+    	   System.out.println("及格");
+       }else{
+    	   System.out.println("优秀");
+       }
+	}
+
+}
