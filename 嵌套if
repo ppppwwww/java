@@ -1,0 +1,18 @@
+public class 嵌套if {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int num=72;
+        if(num>60){
+        	if(num<90){
+        		System.out.println("及格");
+        	}else{
+        		System.out.println("优秀");
+        	}
+        }
+        else{
+        	System.out.println("不及格");
+        }
+	}
+
+}
