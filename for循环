@@ -1,0 +1,15 @@
+public class for循环 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int sum=0;
+		//for(int i=1;i<=100&&i%3!=0;i++){  在条件中使用逻辑运算符会中中断
+		for(int i=1;i<=100;i++)	{
+    	 if(i%3!=0){
+    		 sum=sum+i;
+    		 }
+		}
+    	 System.out.println("1到100之间不能被3整除的数之和为："+sum);
+    	 
+    	 }
+	}
