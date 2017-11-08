@@ -1,0 +1,11 @@
+public class 强制类型转换 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       double heightAvg1=176.2;
+       int heightAvg2=(int)heightAvg1;
+       System.out.println(heightAvg1);
+       System.out.println(heightAvg2);
+	}
+
+}
