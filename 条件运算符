@@ -1,0 +1,7 @@
+public class co{
+  public static void main(String[] args){
+     int score=62;
+     String mark=(62>60)?"及格":"不及格";
+     System.out.printl("考试结果"+mark);
+  }
+}
